@@ -5,11 +5,11 @@ describe Solver do
   #   it 'return the factorial of the integer given' do
   #     n = Solver.new
   #     expect(n.factorial(5)).to eq(120)
-  #   end 
+  #   end
   # end
-  
+
   # ----------------------------------------------------------------
-  # subject { Solver.new } - rspec already defines this. there is no need 
+  # subject { Solver.new } - rspec already defines this. there is no need
 
   context '#factorial' do
     it 'return the factorial of the integer given' do
@@ -18,7 +18,7 @@ describe Solver do
     end
 
     it 'should raise an exception if the integer is negative' do
-      expect{ subject.factorial(-1) }.to raise_error(ArgumentError)
+      expect { subject.factorial(-1) }.to raise_error(ArgumentError)
     end
 
     it 'should return 1 as a factorial of 0' do
