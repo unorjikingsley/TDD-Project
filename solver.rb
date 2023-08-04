@@ -48,6 +48,6 @@ class Solver
 
     # else
     #   integer.to_s
-    end
+    # end
   end
 end
