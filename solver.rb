@@ -1,6 +1,6 @@
 class Solver
   def factorial(num)
-    raise ArgumentError, 'Factorial input must be a non-negative integer' if n.negative?
+    raise ArgumentError, 'Factorial input must be a non-negative integer' if num.negative?
 
     return 1 if num.zero?
 
@@ -14,7 +14,7 @@ class Solver
   end
 
   def fizzbuzz(num)
-    return 'fizzbuzz' if (num % 3).zero? && (n % 5).zero?
+    return 'fizzbuzz' if (num % 3).zero? && (num % 5).zero?
     return 'fizz' if (num % 3).zero?
     return 'buzz' if (num % 5).zero?
 
